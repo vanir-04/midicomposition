@@ -1,12 +1,12 @@
-# 🎵 MIDI Music Generator
+# MIDI Music Generator
 
 AI-powered music continuation tool built with **Gradio + OpenMuseNet 3**, capable of generating MIDI continuations from both **audio and MIDI inputs**, with built-in **visualization and coherence analysis**.
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 🎼 Music Generation
+###  Music Generation
 - Generate MIDI continuations using **OpenMuseNet 3**
 - Supports:
   - 🎹 MIDI input (`.mid`, `.midi`)
@@ -17,38 +17,38 @@ AI-powered music continuation tool built with **Gradio + OpenMuseNet 3**, capabl
 
 ---
 
-### 🎧 Audio → MIDI Transcription
+###  Audio → MIDI Transcription
 - Uses **Spotify Basic Pitch** for automatic transcription
 - Converts audio into MIDI before generation
 
 ---
 
-### 📊 Coherence Metrics
-- 🎵 Pitch similarity
-- 🔁 Interval similarity
-- 📉 KL divergence
-- ⏱ Rhythmic regularity
-- 🎚 Density ratio
-- 🎹 Polyphony
-- 🧠 Overall coherence score (0–100)
+###  Coherence Metrics
+-  Pitch similarity
+-  Interval similarity
+-  KL divergence
+-  Rhythmic regularity
+-  Density ratio
+-  Polyphony
+-  Overall coherence score (0–100)
 
 ---
 
-### 📈 Visualizations
-- 🎹 Piano roll comparison
-- 📊 Radar chart + bar chart
-- 📋 Detailed metric table
+###  Visualizations
+-  Piano roll comparison
+-  Radar chart + bar chart
+-  Detailed metric table
 
 ---
 
-## 🧠 Model Details
+##  Model Details
 - Model: `kobimusic/maestro-4-genre`
 - Framework: PyTorch
 - Auto device detection (CUDA / MPS / CPU)
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 git clone https://github.com/vanir-04/midicomposition.git
@@ -59,7 +59,7 @@ python app.py
 
 ---
 
-## 🖥 Usage
+##  Usage
 
 1. Load model
 2. Upload audio/MIDI
@@ -69,7 +69,7 @@ python app.py
 
 ---
 
-## ⚙️ Parameters
+##  Parameters
 
 | Parameter     | Description |
 |--------------|------------|
@@ -91,23 +91,6 @@ python app.py
 
 ---
 
-## ⚡ Notes
+##  Notes
 - GPU recommended
 - CPU supported but slower
-
----
-
-## 🤝 Contributing
-Pull requests welcome.
-
----
-
-## 📜 License
-Check respective model repositories.
-
----
-
-## 🙌 Acknowledgements
-- OpenMuseNet
-- Spotify Basic Pitch
-- Hugging Face
