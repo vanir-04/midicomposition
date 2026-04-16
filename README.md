@@ -51,8 +51,8 @@ AI-powered music continuation tool built with **Gradio + OpenMuseNet 3**, capabl
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/midi-music-generator.git
-cd midi-music-generator
+git clone https://github.com/vanir-04/midicomposition.git
+cd midicomposition
 pip install -r requirements.txt
 python app.py
 ```
